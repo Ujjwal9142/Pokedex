@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+.main__poke__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito;
+}
+
+.main__poke__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito;
+  color: #dddddd;
+}
+
+.signout__button {
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  margin: 20px 0px 0px 30px;
+  padding: 12px 20px;
+  font-family: Nunito;
+  border: none;
+  border-radius: 5px;
+  background-color: #edd2f3;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+
+.signout__button:hover {
+  transform: scale(1.08);
+}
+
+.main__poke__header > h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.single__poke__container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  min-width: 200px;
+  min-height: 160px;
+  margin: 15px 20px;
+  justify-content: center;
+  transition: transform 450ms;
+  align-items: center;
+  cursor: pointer;
+}
+
+.single__poke__container:hover {
+  transform: scale(1.08);
+}
+
+.single__poke__container > h2 {
+  font-size: 60px;
+  font-weight: 500;
+  color: black;
+  margin: 0px 0px 10px 0px;
+}
+
+.single__poke__container > h3 {
+  text-transform: capitalize;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.poke__color1 {
+  background: linear-gradient(to right, #d9d7f1, #d8d0c0);
+}
+
+.poke__color2 {
+  background: linear-gradient(to right, #f0ece3, #cdf2ca);
+}

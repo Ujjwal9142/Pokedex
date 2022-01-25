@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+
+.poketype__screen {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 80px 60px 60px;
+  font-family: Nunito;
+  padding: 30px 20px;
+}
+
+.poketype__screen > h1 {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.poketype__screen__header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poketype__screen__header > button {
+  padding: 14px 30px;
+  margin: 15px 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  font-family: Nunito;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 450ms;
+}
+
+.poketype__screen__list > h1 {
+  align-self: flex-start;
+}
+
+.poketype__screen__header > button:hover {
+  opacity: 0.7;
+  transform: scale(1.08);
+  background-color: black;
+}
+
+.poke__Normal {
+  background-color: var(--normal);
+  color: #ffffff;
+}
+
+.poke__Fighting {
+  background-color: var(--fighting);
+  color: #ffffff;
+}
+
+.poke__Flying {
+  background-color: var(--flying);
+  color: #ffffff;
+}
+
+.poke__Poison {
+  background-color: var(--poison);
+  color: #ffffff;
+}
+
+.poke__Fighting {
+  background-color: var(--fighting);
+  color: #ffffff;
+}
+
+.poke__Ground {
+  background-color: var(--ground);
+  color: #ffffff;
+}
+
+.poke__Rock {
+  background-color: var(--rock);
+  color: #ffffff;
+}
+
+.poke__Bug {
+  background-color: var(--bug);
+  color: #ffffff;
+}
+
+.poke__Ghost {
+  background-color: var(--ghost);
+  color: #ffffff;
+}
+
+.poke__Steel {
+  background-color: var(--steel);
+  color: #ffffff;
+}
+
+.poke__Fire {
+  background-color: var(--fire);
+  color: #ffffff;
+}
+
+.poke__Water {
+  background-color: var(--water);
+  color: #ffffff;
+}
+
+.poke__Grass {
+  background-color: var(--grass);
+  color: #ffffff;
+}
+
+.poke__Electric {
+  background-color: var(--electric);
+  color: #ffffff;
+}
+
+.poke__Psychic {
+  background-color: var(--psychic);
+  color: #ffffff;
+}
+
+.poke__Ice {
+  background-color: var(--ice);
+  color: #ffffff;
+}
+
+.poke__Dragon {
+  background-color: var(--dragon);
+  color: #ffffff;
+}
+
+.poke__Dark {
+  background-color: var(--dark);
+  color: #ffffff;
+}
+
+.poke__Fairy {
+  background-color: var(--fairy);
+  color: #ffffff;
+}
+
+.poketype__screen__body {
+  margin-top: 70px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poketype__screen__search {
+  width: 100%;
+  height: 60px;
+  outline: none;
+  border: none;
+  background-color: #e5e5e5;
+  border-radius: 6px;
+  padding: 7px 0px 7px 15px;
+  font-size: 25px;
+}
+
+.poketype__screen__list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.poketype__screen__units {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 12px 4px 12px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: transform 450ms;
+}
+
+.poketype__screen__units:hover {
+  opacity: 0.8;
+  transform: scale(1.04);
+}
+
+.poketype__screen__units > img {
+  height: 20px;
+}
+
+.poketype__screen__units > h2 {
+  text-transform: capitalize;
+}
+
+.Normal {
+  background: linear-gradient(to right, var(--normal), var(--fighting));
+}
+
+.Fighting {
+  background: linear-gradient(to right, var(--fighting), var(--flying));
+}
+
+.Flying {
+  background: linear-gradient(to right, var(--flying), var(--poison));
+}
+
+.Poison {
+  background: linear-gradient(to right, var(--poison), var(--ground));
+}
+
+.Ground {
+  background: linear-gradient(to right, var(--ground), var(--rock));
+}
+
+.Rock {
+  background: linear-gradient(to right, var(--rock), var(--bug));
+}
+
+.Bug {
+  background: linear-gradient(to right, var(--bug), var(--ghost));
+}
+
+.Ghost {
+  background: linear-gradient(to right, var(--ghost), var(--steel));
+}
+
+.Steel {
+  background: linear-gradient(to right, var(--steel), var(--fire));
+}
+
+.Fire {
+  background: linear-gradient(to right, var(--fire), var(--water));
+}
+
+.Water {
+  background: linear-gradient(to right, var(--water), var(--grass));
+}
+
+.Grass {
+  background: linear-gradient(to right, var(--grass), var(--electric));
+}
+
+.Electric {
+  background: linear-gradient(to right, var(--electric), var(--psychic));
+}
+
+.Psychic {
+  background: linear-gradient(to right, var(--psychic), var(--ice));
+}
+
+.Ice {
+  background: linear-gradient(to right, var(--ice), var(--dragon));
+}
+
+.Dragon {
+  background: linear-gradient(to right, var(--dragon), var(--dark));
+}
+
+.Dark {
+  background: linear-gradient(to right, var(--dark), var(--fairy));
+}
+
+.Fairy {
+  background: linear-gradient(to right, var(--fairy), var(--normal));
+}

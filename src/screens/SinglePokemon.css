@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito&family=Open+Sans&display=swap");
+
+.single__screen__main {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 80px 60px 60px;
+  font-family: Nunito;
+  min-width: 600px;
+  padding: 30px 20px;
+}
+
+.back__button {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0px 20px;
+  color: white;
+  font-family: Nunito !important;
+  font-weight: 800;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 12px 20px;
+  background-color: tomato;
+  cursor: pointer;
+  border: none;
+  transition: transform 450ms;
+}
+
+.back__button:hover {
+  transform: scale(1.08);
+}
+
+.single__screen__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single__screen__image {
+  margin: 20px 50px;
+}
+
+.single__screen__main > h1,
+.single__screen__stats,
+span {
+  text-transform: capitalize;
+}
+
+.single__screen__main > h1 {
+  margin-top: 0;
+}
+
+.single__screen__image > img {
+  height: 150px;
+  width: 150px;
+}
+
+.single__screen__stats__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokeTable th,
+#pokeMoves {
+  text-transform: capitalize;
+}
+
+#pokeTable {
+  width: 80%;
+  text-align: left;
+  margin: 20px;
+}
+
+#pokeTable td {
+  font-weight: 700;
+}
+
+#pokeTable td,
+#pokeTable th {
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+}
+
+#pokeTable tr:nth-child(even) {
+  background: linear-gradient(to right, #04293a, #064663);
+  color: white;
+}
+
+#pokeTable tr:nth-child(odd) {
+  background: linear-gradient(to right, #3f3351, #864879);
+  color: white;
+}
